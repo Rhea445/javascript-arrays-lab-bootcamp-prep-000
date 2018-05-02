@@ -10,12 +10,12 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
 
-function destructivelyRemoveLastKitten(name){
-  kittens.pop(name)
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
 }
 
-function destructivelyRemoveFirstKitten(name){
-  kittens.shift(name)
+function destructivelyRemoveFirstKitten(){
+  kittens.shift()
 }
 
 function appendKitten(name){
@@ -28,7 +28,7 @@ function prependKitten(name){
   return newarr
 }
 
-function removeLastKitten(name){
+function removeLastKitten(){
   var newarr = kittens.slice(2)
   return newarr
 }
